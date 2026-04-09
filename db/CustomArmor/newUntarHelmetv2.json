@@ -145,7 +145,6 @@
                 }
             }
         },
-
         "addWeaponPreset": true,
         "weaponPresets": [
             {
@@ -163,19 +162,19 @@
                         "_id": "69d6756d6396341009aa3eb0",
                         "_tpl": "69cfd4e589e4bccf1a4d44fe",
                         "parentId": "69d674dce931ffddc468ba1a",
-                        "slotId": "ParietalHead"
+                        "slotId": "helmet_top"
                     },
                     {
                         "_id": "69d675767faef55f8a8e0e11",
                         "_tpl": "69cfd21ba8772ed7a4575b25",
                         "parentId": "69d674dce931ffddc468ba1a",
-                        "slotId": "BackHead"
+                        "slotId": "helmet_back"
                     },
                     {
                         "_id": "69d6757affaae443029706f2",
                         "_tpl": "69cfd4df06239259de477018",
                         "parentId": "69d674dce931ffddc468ba1a",
-                        "slotId": "Ears"
+                        "slotId": "helmet_ears"
                     }
                 ],
                 "_encyclopedia": "69cfd1b1b11a7e75de166454"
