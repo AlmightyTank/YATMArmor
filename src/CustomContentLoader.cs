@@ -78,8 +78,6 @@ public sealed class CustomContentLoader(
                 await cleItemBootstrap.ProcessSlotCopies(assembly, path);
             }
 
-            await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, armorPresetPath);
-
             YATMLogger.Log("[CustomContentLoader] Finished loading WTT items and presets.");
 
             foreach (var path in itemPaths)
