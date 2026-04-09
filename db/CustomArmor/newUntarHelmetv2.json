@@ -6,7 +6,7 @@
         "overrideProperties": {
             "ArmorMaterial": "UHMWPE",
             "ArmorType": "Light",
-            "BackgroundColor": "red",
+            "BackgroundColor": "violet",
             "Height": 2,
             "Width": 2,
             "CanRequireOnRagfair": false,
@@ -32,12 +32,12 @@
                                 ],
                                 "armorPlateColliders": [],
                                 "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
+                                "locked": false
                             }
                         ]
                     },
                     "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
+                    "_required": false
                 },
                 {
                     "_id": "69cfd19e1389313fbafeb22d",
@@ -56,12 +56,12 @@
                                 ],
                                 "armorPlateColliders": [],
                                 "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
+                                "locked": false
                             }
                         ]
                     },
                     "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
+                    "_required": false
                 },
                 {
                     "_id": "69cfd1a107df794b593e083d",
@@ -80,12 +80,12 @@
                                 ],
                                 "armorPlateColliders": [],
                                 "bluntDamageReduceFromSoftArmor": false,
-                                "locked": true
+                                "locked": false
                             }
                         ]
                     },
                     "_proto": "64479fdf9731c8fadc0642c1",
-                    "_required": true
+                    "_required": false
                 }
             ]
         },
@@ -133,17 +133,54 @@
                     "barterSettings": {
                         "loyalLevel": 1,
                         "unlimitedCount": true,
-                        "stackObjectsCount": 99999
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 10
                     },
                     "barters": [
                         {
-                            "count": 1417,
-                            "_tpl": "5449016a4bdc2d6f028b456f"
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "count": 1417
                         }
                     ]
                 }
             }
         },
+
+        "addWeaponPreset": true,
+        "weaponPresets": [
+            {
+                "_id": "69d674d52d24a608a2a2b639",
+                "_type": "Preset",
+                "_changeWeaponName": false,
+                "_name": "UNTAR Helmet V2 Default",
+                "_parent": "69d674dce931ffddc468ba1a",
+                "_items": [
+                    {
+                        "_id": "69d674dce931ffddc468ba1a",
+                        "_tpl": "69cfd1b1b11a7e75de166454"
+                    },
+                    {
+                        "_id": "69d6756d6396341009aa3eb0",
+                        "_tpl": "69cfd4e589e4bccf1a4d44fe",
+                        "parentId": "69d674dce931ffddc468ba1a",
+                        "slotId": "ParietalHead"
+                    },
+                    {
+                        "_id": "69d675767faef55f8a8e0e11",
+                        "_tpl": "69cfd21ba8772ed7a4575b25",
+                        "parentId": "69d674dce931ffddc468ba1a",
+                        "slotId": "BackHead"
+                    },
+                    {
+                        "_id": "69d6757affaae443029706f2",
+                        "_tpl": "69cfd4df06239259de477018",
+                        "parentId": "69d674dce931ffddc468ba1a",
+                        "slotId": "Ears"
+                    }
+                ],
+                "_encyclopedia": "69cfd1b1b11a7e75de166454"
+            }
+        ],
         "addToQuestAssorts": true,
         "questAssorts": [
             {

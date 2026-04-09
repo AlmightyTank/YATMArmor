@@ -6,14 +6,14 @@
     "overrideProperties": {
       "ArmorMaterial": "UHMWPE",
       "armorClass": "5",
-      "Background": "violet",
+      "BackgroundColor": "violet",
       "BluntThroughput": 0.32,
       "CanRequireOnRagfair": false,
       "CanSellOnRagfair": false,
       "Durability": 60,
       "MaxDurability": 60,
       "Height": 1,
-      "Widht": 1
+      "Width": 1
     },
     "fleaPriceRoubles": 58000,
     "handbookPriceRoubles": 2500,

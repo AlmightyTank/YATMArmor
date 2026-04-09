@@ -6,7 +6,7 @@
         "overrideProperties": {
             "ArmorMaterial": "UHMWPE",
             "ArmorType": "Light",
-            "BackgroundColor": "red",
+            "BackgroundColor": "violet",
             "Height": 3,
             "Width": 3,
             "CanRequireOnRagfair": false,

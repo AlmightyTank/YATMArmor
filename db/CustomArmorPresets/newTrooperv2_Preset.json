@@ -8,7 +8,13 @@
         "_items": [
             {
                 "_id": "69cfcad0e8c37a007cb58cc9",
-                "_tpl": "69cfc9b93accfdefefd00402"
+                "_tpl": "69cfc9b93accfdefefd00402",
+                "upd": {
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
             },
             {
                 "_id": "69cfc9c8f4d17e194a14aa92",
