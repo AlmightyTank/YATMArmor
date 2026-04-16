@@ -248,7 +248,7 @@
         "questRewards": [
             {
                 "questId": "699a84bf8e2052342f79b912",
-                "rewardType": "Item",
+                "rewardType": "ArmorPreset",
                 "count": 1,
                 "findInRaid": false
             }
